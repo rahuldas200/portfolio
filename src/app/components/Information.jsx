@@ -1,4 +1,4 @@
-import { Dai_Banna_SIL } from 'next/font/google';
+
 import React from 'react'
 import { FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
@@ -7,7 +7,6 @@ import { SlCalender } from "react-icons/sl";
 import { FaPhone } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { MdOutlineFileDownload } from "react-icons/md";
-import Image from '../../assets/images.jpeg'
 
 
 
@@ -83,7 +82,7 @@ const Information = () => {
         </button>
       </div>
       <div>
-        <img src={Image} alt="" />
+        <img src={''} alt="" />
       </div>
     </div>
   )
